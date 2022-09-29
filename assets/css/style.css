@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+body {
+    font-family: 'Quicksand';
+    height: 100vh;
+    width: 100vw;
+}
+
+.cabecalho-menu {
+    background-color: black;
+    height: 120px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 1200px;
+    padding: 20px;
+}
+
+.menu-logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.menu-logo p {
+    font-family: 'Roboto';
+}
+
+.link-entrar  {
+    text-decoration: none;
+    color: white;
+}
+
+.section {
+    min-height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.conteudo {
+    width: 100%;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+.conteudo-informacoes {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+}
+
+.titulo {
+    font-size: 32px;
+}
+
+.descricao {
+    font-weight: 400;
+}
+
+
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario label {
+    margin-bottom: 8px;
+    font-size: 12px;
+}
+
+.input-button {
+    display: flex;
+}
+
+
+.input-button input {
+    height: 40px;
+    width: 307px;
+    border: none;
+    border: 1px solid #0055b7;
+    outline: none;
+}
+
+.botao-formulario {
+    width: 62px;
+    background-color: #0055b7;
+    border: none;
+    border: 1px solid #0055b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+
+}
+
+
+
+.section-curso {
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+
+    width: 1300px;
+}
+
+.caixa {
+    width: 387px;
+    min-height: 292px;
+    border: 1px solid #0055b7;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 4px 0px #00000040;
+
+
+}
+
+
+.descricao-minutos {
+    width: 56px;
+    height: 17px;
+    font-size: 12px;
+    color: white;
+    background-color: #0055b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caixa-informacoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.titulo-informacoes {
+    font-size: 14px;
+    width: 358px;
+    text-align: left;
+    margin-top: 20px;
+    font-weight: 500;
+}
+
+
+
+
+.descricao-caixa {
+
+    display: flex;
+    margin-top: 34px;
+    justify-content: space-around;
+    column-gap: 210px;
+    align-items: center;
+
+}
+
+.nome {
+    font-size: 12px;
+    color: #0055b7;
+}
+
+.inscricao {
+    width: 387px;
+    height: 40px;
+    background-color: #0055b7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 14px;
+}
+
+.descricao-curso{
+    text-decoration: none;
+    font-size: 14px;
+    color: white;
+    padding: 10px;
+    background-color: #0055b7;
+    width: 389px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+
+.section-avancar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:center;
+    width: 100%;
+    margin-bottom: 100px;
+}
+
+.box{
+    width: 1200px;
+    display: flex;
+    gap: 10px;
+
+}
+.itens-avancar{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #0055b7 ;
+    background: white;
+    color:#0055b7 ;
+}
+
+.itens-avancar:hover{
+    background: #0055b7;
+    color: white;
+}
+
+.rodape{
+    min-height: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.imagens{
+
+    display: flex;
+
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.controla-imagens{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-texto{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 26px;
+}
+.logo-texto p{
+    align-self: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.titulo-e-paragrafo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titulo-e-paragrafo h6{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 600;
+}
+
+/* 
+@media (max-width:900px) {
+
+    
+   .conteudo{
+    justify-content: center;
+    margin-top: 40px;
+   }
+   .conteudo-informacoes{
+    justify-content: center;
+   }
+   .section{
+
+    padding: 10px;
+   }
+} 
+
+@media (max-width:500px) {
+
+    .formulario{
+        align-items: center;
+    }
+    .input-button{
+        width: 240px;
+    }
+   
+ } 
+ 
+@media (max-width:400px){
+    .caixa{
+        width: 290px;
+    }
+    .inscricao{
+        width: 290px;
+    }
+    .descricao-caixa{
+        gap: 100px;
+    }
+} */
