@@ -22,7 +22,6 @@ body {
     justify-content: space-between;
     width: 100%;
     max-width: 1200px;
-    
 }
 
 .menu-logo {
@@ -194,6 +193,9 @@ body {
 
 
 @media (max-width:850px){
+    .menu{
+        margin: 10px;
+    }
     .cabecalho-menu{
         height: 77px;
     }
