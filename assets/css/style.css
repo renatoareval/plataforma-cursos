@@ -188,10 +188,6 @@ body {
 }
 
 
-
-
-
-
 @media (max-width:850px){
     .menu{
         margin: 10px;
@@ -204,6 +200,7 @@ body {
     }
     .menu-hamburguer{
         display: block;
+        cursor: pointer;
     }
     .imagem-conteudo{
         width: 252px;
