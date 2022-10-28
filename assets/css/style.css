@@ -144,6 +144,7 @@ body {
     min-width: 387px;
     height: 292px;
     border: 1px solid #0055b7;
+    margin-bottom: 50px;
 }
 
 .cards img{
@@ -263,3 +264,54 @@ body {
     
 }
 
+.rodape{
+    min-height: 194px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #D9D9D9;
+}
+
+.imagens{
+
+    display: flex;
+
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.controla-imagens{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo-texto{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 26px;
+}
+.logo-texto p{
+    align-self: center;
+    font-size: 12px;
+    font-weight: 400;
+}
+
+
+.titulo-e-paragrafo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.titulo-e-paragrafo h6{
+    font-family: 'Quicksand';
+    font-size: 12px;
+    font-weight: 600;
+}
